@@ -1,0 +1,32 @@
+
+.header {
+    padding-top: 10%;
+}
+
+p {
+    font-size: 3vw;
+    padding-left: 10%;
+    color: black;
+    font-family: 'Inter Tight', sans-serif;
+  }
+
+h1 {
+    line-height: 0em;
+    font-size: 5vw;
+    padding-left: 10%;
+    color: black;
+    padding-bottom: 0.3em;
+    font-family: 'Inter Tight', sans-serif;
+}
+
+.t2 {
+    line-height: 0.3em;
+}
+
+.t3 {
+    line-height: 0.3em;
+}
+
+.t4 {
+    line-height: 0.3em;
+}
