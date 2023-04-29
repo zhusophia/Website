@@ -2,13 +2,99 @@ html {
     background-color: #E0D4CC
 }
 
-.h2 {
-    font-family: 'Source Sans Pro', sans-serif;
-    color:black;
+* {
+    box-sizing: border-box;
 }
 
-.h1 {
+
+.navbar {
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+ /*   background-color: grey; */
+}
+
+.subpage ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.subpage li {
+    list-style: none;
+    text-align: center;
+}
+
+
+.subpage li a {
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2.3vw;
+    color:black;
+    font-weight: lighter;
+    float:left;
+    width: 25%;
+}
+
+
+.menu {
+    position: absolute; 
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px; 
+}
+
+.menu .bar {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+@media (max-width: 1000px) {
+    .menu {
+        display: flex;
+    }
+
+    .subpage {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: whitesmoke;
+    }
+
+    .subpage ul {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .subpage li {
+        text-align: center;
+    }
+
+    .subpage li a {
+        padding: .5rem 1rem;
+    }
+
+    .subpage.active {
+        display: flex
+    }
+}
+
+h1 {
     display: none;
     font-family: 'Playfair Display', serif;
-    color:blue;
+    color:white;
 }
