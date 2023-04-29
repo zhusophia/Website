@@ -1,0 +1,14 @@
+html {
+    background-color: #E0D4CC
+}
+
+.h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color:black;
+}
+
+.h1 {
+    display: none;
+    font-family: 'Playfair Display', serif;
+    color:blue;
+}

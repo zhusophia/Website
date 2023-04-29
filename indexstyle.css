@@ -27,6 +27,18 @@ h1 {
     100%{ opacity: 1;}
 }
 
+.hello {
+    opacity: 0;
+    animation: fade-inout 1s;
+    opacity: 1;
+}
+
+.title {
+    opacity: 0;
+    animation: fade-inout 1s;
+    opacity: 1;
+}
+
 .t2 {
     display: none;
     line-height: 0.3em;
@@ -75,3 +87,14 @@ h1 {
     opacity: 1;
 }
 
+
+.nextsen5 {
+    padding-left: min(9vh, 6.5rem);
+}
+
+img {
+    max-width: 15%;
+    max-height: 15%;
+    height: auto;
+    width: auto\9; 
+}
