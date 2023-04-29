@@ -1,32 +1,77 @@
+html {
+    background-color: black
+}
 
 .header {
-    padding-top: 10%;
+    padding-block: min(10vh, 10rem);
 }
 
 p {
     font-size: 3vw;
-    padding-left: 10%;
-    color: black;
+    padding-left: min(9vh, 7rem);
+    color: white;
     font-family: 'Inter Tight', sans-serif;
   }
 
 h1 {
     line-height: 0em;
     font-size: 5vw;
-    padding-left: 10%;
-    color: black;
+    padding-left: min(9vh, 7rem);
+    color: white;
     padding-bottom: 0.3em;
     font-family: 'Inter Tight', sans-serif;
+} 
+
+@keyframes fade-inout{
+    0%{ opacity: 0;}
+    100%{ opacity: 1;}
 }
 
 .t2 {
+    display: none;
     line-height: 0.3em;
+}
+
+.nextsen2 {
+    opacity: 0;
+    animation: fade-inout 1s;
+    opacity: 1;
 }
 
 .t3 {
+    display: none;
     line-height: 0.3em;
 }
 
+.nextsen3 {
+    opacity: 0;
+    animation: fade-inout 1s;
+    opacity: 1;
+}
+
+
 .t4 {
+    display: none;
     line-height: 0.3em;
 }
+
+.nextsen4 {
+    opacity: 0;
+    animation: fade-inout 1s;
+    opacity: 1;
+}
+
+.welcome {
+    padding-top: 1em;
+    display: none;
+    margin:auto;
+    text-align: center;
+    padding-right: min(9vh, 7rem);
+    font-size: 3vw;
+    color: white;
+    font-family: 'Inter Tight', sans-serif;
+    opacity: 0;
+    animation: fade-inout 1s;
+    opacity: 1;
+}
+
