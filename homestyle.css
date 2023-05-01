@@ -49,7 +49,9 @@ html {
     background-color: black;
 }
 
-
+.wrapper {
+    visibility: hidden;
+}
 .wrapper ul {
     position: absolute;
     top: 50%;
