@@ -7,7 +7,7 @@ I think there's a lot of stuff I wish I could've implemented, but couldn't due t
 - Blender animation with a ticket to transition from the interactive -> main page 
 - Making an improved background for the main page, which isn't as 'random' (but it's still a part I really like) 
 - Page transitions <br><br>
-Overall, it still was a great experience and I learnt TONS (that hamburger menu took *far* too long to debug. <br>
+Overall, it still was a great experience and I learnt TONS (that hamburger menu took *far* too long to debug.) <br>
 Enjoy SophLand!
 
 <br>
