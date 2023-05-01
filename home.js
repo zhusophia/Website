@@ -12,7 +12,6 @@ hamburger.addEventListener("click", () => {
         wrapper.classList.add("active");
         main.classList.add("active")
         check = true;
-        console.log("check false 2");
     } else if (!check) {
         aniwrapper.style.visibility="active";
       //  wrapper.style.animation="fadein 0.4s linear";
@@ -21,7 +20,6 @@ hamburger.addEventListener("click", () => {
         wrapper.classList.add("active");
         main.classList.add("active");
         check = true;
-        console.log("check false");
         count++;
     } else {
         hamburger.classList.remove("active");
@@ -30,9 +28,7 @@ hamburger.addEventListener("click", () => {
         wrapper.classList.add("fade");
         aniwrapper.style.visibility="visible";
         check = false;
-        console.log("check true");
         count++;
-
     }
 
    

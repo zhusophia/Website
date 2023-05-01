@@ -41,9 +41,9 @@ html {
 
 .bar {
     display: block;
-    width: 25px;
+    width: 40px;
     height: 3px;
-    margin: 5px auto;
+    margin: 10px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: black;
@@ -107,10 +107,10 @@ html {
         opacity: 0;
     }
     .hamburger.active .bar:nth-child(1) {
-        transform:translateY(8px) rotate(45deg);
+        transform:translateY(13px) rotate(45deg);
     }
     .hamburger.active .bar:nth-child(3) {
-        transform:translateY(-8px) rotate(-45deg);
+        transform:translateY(-13px) rotate(-45deg);
     }
 
 
