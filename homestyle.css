@@ -50,6 +50,7 @@ html {
 }
 
 .wrapper {
+    display:none;
     visibility: hidden;
 }
 .wrapper ul {
@@ -117,6 +118,7 @@ html {
         visibility: hidden;
     }
     .wrapper {
+        display:flex;
         visibility: hidden;
     }
     .wrapper.fade {
