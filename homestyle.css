@@ -210,6 +210,11 @@ p {
         padding-top: 3%;
     }
 
+    .main {
+        display: none;
+        visibility: hidden;
+    }
+
     .navmenu {
         display: none;
     }
@@ -246,9 +251,6 @@ p {
         visibility: hidden;
     }
 
-    .main {
-        display: none;
-    }
 
     .main2 {
         position: relative;
