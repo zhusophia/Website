@@ -5,6 +5,20 @@ const aniwrapper = document.getElementById("wrapper");
 var check = false;
 var count = 0;
 
+var tippossible = [
+    "TIP: Keep your hands and feet inside SophLand rides to mitigate the probability of meteor strikes.",
+    "TIP: SophLand is legally responsible for your safety. Sue us!",
+    "FACT: SophLand Sprite is 7.2 milion dollars. A reasonable price, no?",
+    "FACT: SophLand averages 4.6 trillion monthly visitors!",
+    "FACT: SophLand has an 100% satisfaction rate (Based off: 1 review by Sophia Zhu).",
+    "FACT: SophLand has a population of at least 0.",
+    "TIP: Plan your visit according to Github server outages!"
+];
+
+var randomNumber = Math.floor(Math.random() * tippossible.length);
+document.getElementById("tip").innerHTML = tippossible[randomNumber];
+
+
 hamburger.addEventListener("click", () => {
     if(!check && count == 0) {
         aniwrapper.style.visibility="active";
@@ -30,9 +44,9 @@ hamburger.addEventListener("click", () => {
         check = false;
         count++;
     }
-
-   
 })
+
+
 
 
 
