@@ -87,7 +87,6 @@ body > footer {
 }
 
 p {
-    
     color: black;
     text-decoration: none;
     font-size: 2vw;
@@ -139,6 +138,7 @@ p {
         transform: translateY(0px) scale(1);
     }
 }
+
  /* Main Screen */
 .main {
     animation: fadeup 0.5s;
@@ -234,12 +234,12 @@ p {
 }
 
  /*  Adjusting for Phone */
-@media(max-width:800px) {
+@media(max-width:1000px) {
     .hamburger{
         display: block;
         position:absolute;
         right: 40px;
-        padding-top: 3%;
+        top: 3vw;
     }
 
     .main {
@@ -262,11 +262,12 @@ p {
     }
 
     .main2.active {
+        display:none;
         visibility: hidden;
     }
 
     .wrapper {
-        display:flex;
+        display:block;
         visibility: hidden;
     }
     .wrapper.fade {
@@ -280,6 +281,7 @@ p {
     }
 
     .footer.active {
+        display: none;
         visibility: hidden;
     }
 
@@ -302,21 +304,22 @@ p {
         left: 0;
         position:absolute;
         line-height: 3em;
-        margin-top: -30px; 
-        width: 100%   
+        margin-top: -45px; 
     }
 
     .sophtext2 {
         left: 0;
         position:absolute;
         text-align: center;
-        top: 370px;
+        top: 420px;
         width: 100%   
     }
 
     h1 {
         font-size: 14vw;
     }
+
+    
 
     p {
         position: relative;
