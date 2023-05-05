@@ -2,6 +2,7 @@ const hamburger = document.querySelector(".hamburger");
 const main = document.querySelector(".main2");
 const wrapper = document.querySelector(".wrapper");
 const footer = document.querySelector(".footer");
+const back = document.querySelector(".background");
 const aniwrapper = document.getElementById("wrapper");
 var check = false;
 var count = 0;
@@ -27,6 +28,7 @@ hamburger.addEventListener("click", () => {
         wrapper.classList.add("active");
         main.classList.add("active")
         footer.classList.add("active")
+        back.classList.add("active")
         check = true;
     } else if (!check) {
         aniwrapper.style.visibility="active";
@@ -35,6 +37,7 @@ hamburger.addEventListener("click", () => {
         wrapper.classList.add("active");
         footer.classList.add("active")
         main.classList.add("active");
+        back.classList.add("active")
         check = true;
         count++;
     } else {
@@ -42,6 +45,7 @@ hamburger.addEventListener("click", () => {
         main.classList.remove("active");
         wrapper.classList.remove("active");
         footer.classList.remove("active");
+        back.classList.remove("active")
         wrapper.classList.add("fade");
         aniwrapper.style.visibility="visible";
         check = false;
