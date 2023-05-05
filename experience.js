@@ -1,5 +1,6 @@
 const hamburger = document.querySelector(".hamburger");
 const wrapper = document.querySelector(".wrapper");
+const phone = document.querySelector(".phone");
 const aniwrapper = document.getElementById("wrapper");
 var check = false;
 var count = 0;
@@ -9,6 +10,7 @@ hamburger.addEventListener("click", () => {
         aniwrapper.style.visibility="active";
         hamburger.classList.add("active");
         wrapper.classList.add("active");
+        phone.classList.add("active");
       
         check = true;
     } else if (!check) {
@@ -16,12 +18,14 @@ hamburger.addEventListener("click", () => {
         wrapper.classList.remove("fade");
         hamburger.classList.add("active");
         wrapper.classList.add("active");
+        phone.classList.add("active");
      
         check = true;
         count++;
     } else {
         hamburger.classList.remove("active");
         wrapper.classList.remove("active");
+        phone.classList.remove("active");
 
         wrapper.classList.add("fade");
         aniwrapper.style.visibility="visible";

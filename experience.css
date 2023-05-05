@@ -89,6 +89,15 @@ p {
 }
 
 /* Actual Text on Page */
+.phone {
+    display:none;
+}
+
+.main {
+    text-align: center;
+    animation: fadedown 0.5s;
+}
+
 h1 {
     font-family: 'Playfair Display', serif;
     font-size: 5vw;
@@ -98,13 +107,7 @@ h1 {
     line-height: 0;
 }
 
-
-.main {
-    text-align: center;
-}
-
 h2 {
-    
     color: black;
     text-decoration: none;
     font-size: 2.5vw;
@@ -127,6 +130,10 @@ h3 {
     font-size: 1.2vw;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: lighter;
+}
+
+.content {
+    animation: fadeup 0.5s;
 }
 
 .content a {
@@ -202,7 +209,7 @@ table {
         top: 3vw;
     }
 
-    .main {
+    .computer {
         display: none;
         visibility: hidden;
     }
@@ -221,11 +228,6 @@ table {
         transform:translateY(-13px) rotate(-45deg);
     }
 
-    .main2.active {
-        display:none;
-        visibility: hidden;
-    }
-
     .wrapper {
         display:block;
         visibility: hidden;
@@ -239,5 +241,72 @@ table {
         visibility: visible;
         animation: fadein 0.4s;
     }
+    .phone {
+        display: block;
+    }
+
+    .phone.active {
+        display:none;
+    }
+
+    .computer {
+        display:none;
+    }
+
+    .phonecontent {
+        animation: fadeup 0.5s;
+        text-align: center;
+    }
+
+    .phonecontent img {
+        padding-top: 3em;
+        max-width: 55%;
+        max-height: 55%;
+    }
+
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 8vw;
+        text-align: center;
+        color:white;
+        font-weight: lighter;
+    }
+
+    h2 {
+        color: black;
+        text-decoration: none;
+        font-size: 4.5vw;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: Bold;
+        line-height: 3px;
+    }
+    
+    
+    h3 {
+        color: black;
+        text-decoration: none;
+        font-size: 2.2vw;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: lighter;
+        line-height: 6px;
+    }
+
+    .resumelink {
+        color: black;
+        text-decoration: none;
+        font-size: 2.2vw;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: lighter;
+    }
+
+    .main2 {
+        padding-top: 2em;
+    }
+
+    .phonecontent a {
+        color: black;
+        text-decoration: none;
+    }
+    
 
 }
