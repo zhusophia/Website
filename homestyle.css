@@ -308,7 +308,7 @@ p {
         font-size: 17vw;
         position:absolute;
         line-height: 3em;
-        margin-top: -5px; 
+        margin-top: -50px; 
     }
 
     .sophtext2 {
@@ -316,7 +316,7 @@ p {
         font-size: 17vw;
         position:absolute;
         text-align: center;
-        top: 285px;
+        top: 330px;
         width: 100%   
     }
 

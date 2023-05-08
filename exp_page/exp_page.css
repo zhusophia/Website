@@ -30,7 +30,17 @@ h3 {
     font-weight: lighter;
 }
 
+h4 {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+}
+
+
 .button {
+    animation: fadedown 0.5s;
     position:absolute;
     display: inline;
     border: none;
@@ -49,6 +59,7 @@ table {
 }
 
 .aww {
+    animation: fadeup 0.5s;
     display:block;
     line-height: 0px;
 }
@@ -58,6 +69,21 @@ table {
     max-width: 75%;
     max-height: 75%;
 }
+
+.phone {
+    display:none;
+    text-align:center;
+}
+
+.role {
+    animation: fadeup 0.5s;
+}
+.roletext {
+    animation: fadeup 0.5s;
+   padding: 0px 2vw 2em 5vw; 
+}
+
+
 
 .container {
     padding: 2rem;
@@ -158,7 +184,55 @@ table {
 
 
 /* Phone Version */
-@media(max-width:800px) {
+@media(max-width:1000px) {
+   .aww {
+    display:none;
+   }
+
+   .phone {
+    animation: fadeup 0.5s;
+    display:block;
+   }
+
+   .phone img {
+    padding-top: 5em;
+    max-width: 100%;
+    max-height: 100%;
+   }
+
+   .button {
+    font-size: 5.5vw;
+   }
+
+   h1 {
+    font-size: 9vw;
+    line-height: 0;
+   }
+
+   h2 {
+    font-size: 6.5vw;;
+    line-height: 20px;
+   }
+
+   h3 {
+    font-size:  3.7vw;
+    line-height: 10px;
+   }
    
+   h4 {
+    color: black;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    font-size:  3.7vw;
+   }
+
+   .role {
+    padding-top: 0.5em;
+    }
+
+   .roletext {
+    padding-top: 0.5em;
+   }
 
 }
