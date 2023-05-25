@@ -23,11 +23,12 @@ h2 {
 
 
 h3 {
+    font-weight: lighter;
     color: black;
     text-decoration: none;
     font-size: 1.2vw;
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: lighter;
+    font-weight: 400;
 }
 
 h4 {
@@ -38,6 +39,19 @@ h4 {
     font-weight: lighter;
 }
 
+.pogimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+figure figcaption {
+    padding-top: 0.1vw;
+    text-align: center;
+}
 
 .button {
     animation: fadedown 0.5s;
