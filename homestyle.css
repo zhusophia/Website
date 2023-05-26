@@ -293,14 +293,16 @@ p {
         animation: fadeup 0.5s;
         position: relative;
         display:flex;
+        justify-content: center;
+        align-items: center;
     }
 
     img {
         position: relative;
         display: block;
         top: 9.2em;
-        max-width: 45%;
-        max-height: 45%;
+        max-width: 55%;
+        max-height: 55%;
     }
 
     .sophtext {
@@ -316,7 +318,7 @@ p {
         font-size: 17vw;
         position:absolute;
         text-align: center;
-        top: 420px;
+        top: 510px;
         width: 100%   
     }
 

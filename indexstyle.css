@@ -6,8 +6,15 @@ html {
     padding-block: min(10vh, 10rem);
 }
 
+.main {
+    margin: 0;
+  position: absolute;
+  top: 30%;
+  
+}
+
 p {
-    font-size: 6vw;
+    font-size: 4vw;
     padding-left: min(9vh, 7rem);
     color: white;
     font-family: 'Inter Tight', sans-serif;
@@ -15,7 +22,16 @@ p {
 
 h1 {
     line-height: 0em;
-    font-size: 9vw;
+    font-size: 6vw;
+    padding-left: min(9vh, 7rem);
+    color: white;
+    padding-bottom: 0.3em;
+    font-family: 'Inter Tight', sans-serif;
+} 
+
+h2 {
+    line-height: 0em;
+    font-size: 6vw;
     padding-left: min(9vh, 7rem);
     color: white;
     padding-bottom: 0.3em;
@@ -74,16 +90,21 @@ h1 {
 }
 
 .welcome {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     display: none;
-    margin:auto;
     text-align: center;
-    padding-right: min(9vh, 7rem);
     font-size: 3vw;
     color: white;
     font-family: 'Inter Tight', sans-serif;
     opacity: 0;
     animation: fade-inout 1s;
     opacity: 1;
+    text-align: center;
 }
 
 
@@ -92,8 +113,41 @@ h1 {
 }
 
 img {
-    max-width: 30%;
-    max-height: 30%;
+    max-width: 60%;
+    max-height: 60%;
     height: auto;
     width: auto\9; 
+}
+
+@media(max-width:1000px) {
+    h1 {
+        font-size: 8vw;
+        padding-left: min(5vh, 7rem);
+    }
+
+    p {
+        font-size: 6vw;
+        padding-left: min(5vh, 7rem);
+    }
+
+    img {
+        position: relative;
+        max-width: 100%;
+        max-height: 100%;
+        top: -20px;
+    }
+
+    .welcome {
+        font-size: 8vw;
+        padding-left: none;
+    }
+
+    .main {
+        top: 35%;
+    }
+
+    h2 {
+        
+        font-size: 10vw;
+    }
 }
