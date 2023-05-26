@@ -39,6 +39,12 @@ h4 {
     font-weight: lighter;
 }
 
+a {
+    text-decoration: none; 
+    color:black; 
+    border-bottom: 1px dashed #5c5c5c;
+}
+
 .pogimg {
     display: block;
     margin-left: auto;
@@ -215,7 +221,7 @@ table {
     max-height: 100%;
    }
 
-   .button {
+   button {
     font-size: 5.5vw;
    }
 
@@ -226,7 +232,7 @@ table {
 
    h2 {
     font-size: 6.5vw;;
-    line-height: 20px;
+    line-height: 40px;
    }
 
    h3 {

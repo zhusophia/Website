@@ -7,7 +7,7 @@ html {
 }
 
 p {
-    font-size: 3vw;
+    font-size: 6vw;
     padding-left: min(9vh, 7rem);
     color: white;
     font-family: 'Inter Tight', sans-serif;
@@ -15,7 +15,7 @@ p {
 
 h1 {
     line-height: 0em;
-    font-size: 5vw;
+    font-size: 9vw;
     padding-left: min(9vh, 7rem);
     color: white;
     padding-bottom: 0.3em;

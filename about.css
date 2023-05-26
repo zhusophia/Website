@@ -280,13 +280,15 @@ p {
         max-height: 45%;
         align-items: center;
         margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+        margin-right: auto;
+        width: 50%;
 
     }
 
     .abouttext2 {
-        padding: 2vw;
+        padding-left: 6vw;
+        padding-right: 1vw;
+        padding-bottom: 2vw;
     }
     
 
