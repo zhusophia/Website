@@ -1,5 +1,5 @@
 const hamburger = document.querySelector(".hamburger");
-const main = document.querySelector(".main2");
+const main = document.querySelector(".outer");
 const wrapper = document.querySelector(".wrapper");
 const aniwrapper = document.getElementById("wrapper");
 var check = false;

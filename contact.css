@@ -150,12 +150,6 @@ p {
 }
 
 
-span#words {
-    font-weight: bold;
-    font-style: italic;
-    
-}
-
 .container {
     animation: fadeup 0.5s;
     width: 100%;
@@ -166,6 +160,8 @@ span#words {
 .outer {
     display: relative;
     margin: 0;
+    transform: translateY(-2vw);
+    padding-bottom: 2vw;
 }
 
 .main2 {
@@ -200,6 +196,15 @@ u {
     text-decoration: none;
 }
 
+span#words {
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+.hiddenbreak {
+    display: none;
+}
 
  /*  Adjusting for Phone */
 @media(max-width:1000px) {
@@ -208,11 +213,6 @@ u {
         position:absolute;
         right: 40px;
         top: 3vw;
-    }
-
-    .main {
-        display: none;
-        visibility: hidden;
     }
 
     .navmenu {
@@ -229,7 +229,7 @@ u {
         transform:translateY(-13px) rotate(-45deg);
     }
 
-    .main2.active {
+    .outer.active {
         display:none;
         visibility: hidden;
     }
@@ -253,35 +253,18 @@ u {
         display:none;
     }
 
-    .main2 {
-        animation: fadeup 0.5s;
-        position: relative;
-        display:flex;
-    }
-
-    img {
-        position: relative;
-        display: block;
-        top: 9.2em;
-        max-width: 45%;
-        max-height: 45%;
-    }
-
     h1 {
         font-size: 14vw;
+        line-height: 1;
     }
-
 
     p {
-        position: relative;
-        text-align: center;
-        bottom: 50%;
         font-size: 4.5vw;
-        padding-left: 1em;
-        padding-right: 1em;
-        line-height: 2em;
-        transform: translateY(-50%);
-        border-top: 1px solid  rgba(141, 141, 141, 0.2);
-        border-bottom: 1px solid rgba(141, 141, 141, 0.2);
+        line-height: 1.2;
     }
+
+    .hiddenbreak {
+        display: block;
+    }
+    
 }
