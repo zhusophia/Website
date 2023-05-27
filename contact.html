@@ -36,7 +36,7 @@
             <div class="container">
                 <div class="heading">
                     <h1>Let's talk <br class="hiddenbreak"><span id="words">...</span></h1>
-                    <p>Reach out! I'd love to chat about your thoughts, passions, critiques on SophLand... anything!</p>
+                    <p class="text">Reach out! I'd love to chat about your thoughts, passions, critiques on SophLand... anything!</p>
                 </div>
             </div>
 
@@ -70,7 +70,7 @@
             <span class="bar"></span>
         </div>
 
-        <script type="text/javascript">
+        <script >
             (function () {
               var words = [
                 "product",
@@ -85,7 +85,7 @@
               i = 0;
               setInterval(function(){ $('#words').fadeOut(function(){
                   $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
-                }); }, 3000)
+                }); }, 2500)
             })();
           </script>
 

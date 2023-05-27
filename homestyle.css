@@ -215,10 +215,9 @@ h1 {
 
 .footer {
     animation: fadeup 0.5s;
-    display: inline-block;
-    position: sticky;
-    top: 100%;
-    padding: 0;
+    display: block;
+    position: absolute;
+    top: 90%;
     width: 100%;
 }
 
