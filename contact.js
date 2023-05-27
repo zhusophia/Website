@@ -5,6 +5,8 @@ const aniwrapper = document.getElementById("wrapper");
 var check = false;
 var count = 0;
 
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+
 hamburger.addEventListener("click", () => {
     if(!check && count == 0) {
         aniwrapper.style.visibility="active";

@@ -8,6 +8,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500;1,600&family=Source+Sans+Pro:ital,wght@0,300;0,400;1,600&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500;1,600&family=Source+Sans+Pro:ital,wght@0,300;0,400;1,300;1,600&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     </head>
 
     <body>
@@ -30,9 +32,32 @@
             </ul>
         </nav>
 
+        <div class="outer" id="outer"> 
+            <div class="container">
+                <div class="heading">
+                    <h1>Let's talk <span id="words">...</span></h1>
+                    <p>Reach out! I'd love to chat about your thoughts, passions, critiques on SophLand... anything!</p>
+                </div>
+            </div>
         
-        <div class="main" id="main"> 
-            <h1 class="sophtext">Contact</h1>
+            <div class="icon">
+                <img src="images\email.png">
+                <a href="mailto: sophiazhu.gz@gmail.com" target="\blank">
+                    <p class="user"><u>sophiazhu.gz@gmail.com</u></p>
+                </a>
+            </div>
+            <div class="icon">
+                <img src="images\instagram.png">
+                <a href="https://www.instagram.com/sophiiazhu/"  target="\blank">
+                <p class="user"><u>@sophiiazhu</u></p>
+            </a>
+            </div>
+            <div class="icon">
+                <img src="images\linkedin.png">
+                <a href="https://www.linkedin.com/in/siyingsophiazhu/"  target="\blank">
+                <p class="user"><u>@siyingsophiazhu</u></p>
+            </a>
+            </div>
         </div>
 
         <div class="main2" id="main"> 
@@ -45,6 +70,25 @@
             <span class="bar"></span>
             <span class="bar"></span>
         </div>
+
+        <script type="text/javascript">
+            (function () {
+              var words = [
+                "product",
+                "ideas",
+                "projects",
+              "collaboration",
+              "psychology",
+              "documentaries",
+                "gym",
+            "philosophy"
+             ],
+              i = 0;
+              setInterval(function(){ $('#words').fadeOut(function(){
+                  $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
+                }); }, 3000)
+            })();
+          </script>
 
     <script src="contact.js"> </script>
     </body>
