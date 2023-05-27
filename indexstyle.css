@@ -9,7 +9,7 @@ html {
 .main {
     margin: 0;
   position: absolute;
-  top: 30%;
+  top: 10em;
   
 }
 
@@ -31,19 +31,37 @@ h1 {
 
 h2 {
     line-height: 0em;
-    font-size: 6vw;
-    padding-left: min(9vh, 7rem);
+    font-size: 7vw;
     color: white;
     padding-bottom: 0.3em;
     font-family: 'Inter Tight', sans-serif;
+    text-align: center;
+    animation: fade-inout 1s;
+    opacity: 1;
 } 
+
+h3 {
+    font-size: 2vw;
+    color: white;
+    font-family: 'Inter Tight', sans-serif;
+    text-align: center;
+    
+}
 
 @keyframes fade-inout{
     0%{ opacity: 0;}
     100%{ opacity: 1;}
 }
 
+.stuck {
+    display: none;
+    animation: fade-inout 1s;
+    opacity: 1;
+    padding-top: 2vw;
+}
+
 .hello {
+    display: block;
     opacity: 0;
     animation: fade-inout 1s;
     opacity: 1;
@@ -91,32 +109,29 @@ h2 {
 
 .welcome {
     margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 45%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
     display: none;
     text-align: center;
-    font-size: 3vw;
-    color: white;
-    font-family: 'Inter Tight', sans-serif;
-    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     animation: fade-inout 1s;
     opacity: 1;
-    text-align: center;
 }
 
 
 .nextsen5 {
-    padding-left: min(9vh, 6.5rem);
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 img {
     max-width: 60%;
     max-height: 60%;
-    height: auto;
-    width: auto\9; 
+    display: block;
 }
 
 @media(max-width:1000px) {
@@ -143,11 +158,16 @@ img {
     }
 
     .main {
-        top: 35%;
+        top: 45vw;
     }
 
     h2 {
-        
         font-size: 10vw;
     }
+
+    h3 {
+        font-size: 3.5vw;
+    }
+
+    
 }

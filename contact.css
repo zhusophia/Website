@@ -44,6 +44,7 @@ html, body {
     font-weight: lighter;
 }
 
+
 .hamburger {
     display: none;
     cursor: pointer;
@@ -267,4 +268,8 @@ span#words {
         display: block;
     }
     
+    u {
+        border-bottom: 2px dashed #5c5c5c;
+        text-decoration: none;
+    }
 }

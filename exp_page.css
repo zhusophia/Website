@@ -101,61 +101,7 @@ table {
 }
 .roletext {
     animation: fadeup 0.5s;
-   padding: 0px 2vw 2em 5vw; 
-}
-
-
-
-.container {
-    padding: 2rem;
-}
-
-.slider-wrapper {
-    position: relative;
-    max-width: 50%;
-    max-height: 50%;
-    margin: 0 auto;
-
-}
-
-.slider {
-    display: flex;
-    aspect-ratio: 16 / 9;
-    overflow-x:auto;
-    overflow-x: hidden; /* Hide horizontal scrollbar */
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
-    border-radius: 0.5rem;
-}
-
-.slider img {
-    flex: 1 0 100%;
-    scroll-snap-align: start;
-    object-fit: cover;
-}
-
-.slidernav{
-    display:flex;
-    column-gap: 1rem;
-    position: absolute;
-    bottom: 4rem;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1;
-}
-
-.slidernav a{
-    width: 0.5rem;
-    height: 0.5rem;
-    border-radius: 50%;
-    background-color: #fff;
-    opacity: 0.75;
-    transition: opacity ease 250ms;
-}
-
-.slidernav a:hover {
-    opacity: 1;
+   padding: 0px 5vw 2em 5vw; 
 }
 
 
@@ -222,7 +168,7 @@ table {
    }
 
    button {
-    font-size: 5.5vw;
+    font-size: 3vw;
    }
 
    h1 {
@@ -253,7 +199,11 @@ table {
     }
 
    .roletext {
-    padding-top: 0.5em;
+    padding-top: 0.5em;    
+   }
+
+   a {
+    border-bottom: 2px dashed #5c5c5c;
    }
 
 }

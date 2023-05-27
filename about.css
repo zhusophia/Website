@@ -201,18 +201,10 @@ h5 {
     line-height: 0px;
 }
 
-
-
-
-p {
-    position: relative;
-    text-align: center;
-    bottom: 50%;
-    font-size: 1.7vw;
-    transform: translateY(-50%);
-    border-top: 1px solid  rgba(141, 141, 141, 0.2);
-    border-bottom: 1px solid rgba(141, 141, 141, 0.2);
-    margin-top: 9px;
+.main a {
+    text-decoration: none; 
+    color:black; 
+    border-bottom: 1px dashed #5c5c5c;
 }
 
  /*  Adjusting for Phone */
@@ -270,6 +262,7 @@ p {
     .main2 {
         display:block;
         animation: fadeup 0.5s;
+        padding-right: 3.5vw;
         
     }
 
@@ -305,16 +298,10 @@ p {
     }
 
 
-    p {
-        position: relative;
-        text-align: center;
-        bottom: 50%;
-        font-size: 4.5vw;
-        padding-left: 1em;
-        padding-right: 1em;
-        line-height: 2em;
-        transform: translateY(-50%);
-        border-top: 1px solid  rgba(141, 141, 141, 0.2);
-        border-bottom: 1px solid rgba(141, 141, 141, 0.2);
+    .main2 a {
+        text-decoration: none; 
+        color:black; 
+        border-bottom: 2px dashed #5c5c5c;
     }
+
 }

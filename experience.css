@@ -315,5 +315,8 @@ table {
         text-decoration: none;
     }
     
+    u {
+        border-bottom: 2px dashed #5c5c5c;
+    }
 
 }
