@@ -27,7 +27,6 @@ h1 {
     color: white;
     padding-bottom: 0.3em;
     font-family: 'Inter Tight', sans-serif;
-    font-weight: bold;
     font-style: italic;
 } 
 
@@ -138,12 +137,12 @@ img {
 
 @media(max-width:1000px) {
     h1 {
-        font-size: 6.5vw;
+        font-size: 5vw;
         padding-left: min(5vh, 7rem);
     }
 
     p {
-        font-size: 4.5vw;
+        font-size: 3vw;
         padding-left: min(5vh, 7rem);
     }
 
@@ -153,7 +152,7 @@ img {
     }
 
     h3 {
-        font-size: 3.5vw;
+        font-size: 3vw;
     }
 
     img {
