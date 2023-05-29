@@ -94,6 +94,44 @@ p {
     font-weight: lighter;
 }
 
+.navbar ul li a:hover  {
+    border-bottom: 1px dashed black;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #E0D4CC;
+    min-width: 160px;
+    box-shadow: 0px 1px 3px 0px rgba(63, 63, 63, 0.2); 
+    z-index: 1;
+    font-size: 1.2vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 0.5vw 1.2vw;
+    text-decoration: none;
+    display: block;
+}
+  
+  .dropdown-content a:hover {
+    font-style:italic;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
 /* Actual Text on Page */
 .phone {
     display:none;
