@@ -137,12 +137,12 @@ img {
 
 @media(max-width:1000px) {
     h1 {
-        font-size: 5vw;
+        font-size: 6vw;
         padding-left: min(5vh, 7rem);
     }
 
     p {
-        font-size: 3vw;
+        font-size: 4.5vw;
         padding-left: min(5vh, 7rem);
     }
 
