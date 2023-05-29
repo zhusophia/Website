@@ -2,7 +2,9 @@ html {
     background-color: #E0D4CC
 }
 
-
+* {
+    box-sizing: border-box;
+}
 
 html, body {
     margin: 0; height: 100%; overflow: hidden;
@@ -21,7 +23,7 @@ html, body {
 }
 
 .navmenu {
-    padding-top: 0.5%;
+    padding-top: 0.1em;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -58,7 +60,7 @@ html, body {
     display: none;
     position: absolute;
     background-color: #E0D4CC;
-    min-width: 160px;
+    min-width: 100%;
     box-shadow: 0px 1px 3px 0px rgba(63, 63, 63, 0.2); 
     z-index: 1;
     font-size: 1.2vw;
@@ -185,7 +187,8 @@ img {
     display: block;
     margin: 0 auto;
     max-width: 25%;
-    max-height: 25%;       
+    max-height: 25%;    
+    outline: 5px solid #b3aaa5;  
 }
 
 

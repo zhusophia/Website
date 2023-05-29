@@ -21,7 +21,7 @@ html, body {
 }
 
 .navmenu {
-    padding-top: 2%;
+    padding-top: 1.7em;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -52,13 +52,13 @@ html, body {
     position: relative;
     display: inline-block;
     text-align: center;
-  }
+}
   
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #E0D4CC;
-    min-width: 160px;
+    min-width: 100%;
     box-shadow: 0px 1px 3px 0px rgba(63, 63, 63, 0.2); 
     z-index: 1;
     font-size: 1.2vw;
