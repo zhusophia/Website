@@ -20,7 +20,7 @@ function hint() {
     document.getElementById('stuck').style.display = 'block'
 }
 
-setInterval(warning1, 6000)
+setInterval(warning1, 4500)
 
 function warning1() {
     if (count1 == 0) {
