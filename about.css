@@ -190,7 +190,6 @@ p {
 }
 
 .main img {
-
     display: flex;
     float: right;
     max-width: 50vw;
@@ -321,10 +320,14 @@ h5 {
 
     }
 
+    .main2 img {
+        padding-left: 3.5vw;
+    }
+
     .abouttext2 {
         padding-left: 6vw;
         padding-right: 1vw;
-        padding-bottom: 4vw;
+        padding-bottom: 5vw;
     }
     
 

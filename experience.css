@@ -319,6 +319,7 @@ table {
     .phonecontent {
         animation: fadeup 0.5s;
         text-align: center;
+        padding-bottom: 5vw;
     }
 
     .phonecontent img {
@@ -376,7 +377,6 @@ table {
     }
 
     button {
-        border-style: inset;
         border-width: 0.2em;
     }
 
