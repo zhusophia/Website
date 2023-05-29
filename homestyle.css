@@ -185,8 +185,7 @@ img {
     display: block;
     margin: 0 auto;
     max-width: 25%;
-    max-height: 25%;
-        
+    max-height: 25%;       
 }
 
 
@@ -263,6 +262,10 @@ p {
     border-top: 1px solid  rgba(141, 141, 141, 0.2);
     border-bottom: 1px solid rgba(141, 141, 141, 0.2);
     margin-top: 9px;
+}
+
+header {
+    display: none;
 }
 
  /*  Adjusting for Phone */
@@ -358,7 +361,6 @@ p {
         font-size: 14vw;
     }
 
-
     p {
         position: relative;
         text-align: center;
@@ -370,5 +372,10 @@ p {
         transform: translateY(-50%);
         border-top: 1px solid  rgba(141, 141, 141, 0.2);
         border-bottom: 1px solid rgba(141, 141, 141, 0.2);
+    }
+
+    header {
+        display: block;
+        padding-top: 4em;
     }
 }

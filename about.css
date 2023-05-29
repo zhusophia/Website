@@ -185,7 +185,6 @@ p {
 
 .abouttext {
     justify-content: space-around;
-   /* padding-left: 35%; */
     padding-bottom: 2vw;
 }
 
@@ -193,19 +192,10 @@ p {
 
     display: flex;
     float: right;
-   /* margin-left: auto; */
     max-width: 50vw;
     max-height: 45vw;
     justify-content: space-around;
     padding-left: 3.5vw;
-/*    align-items: right;
-    
-    padding-top: 5vw;
-    padding-right: 6vw;
-    padding-bottom: 6vw;
-    position: absolute; */
-
-
 }
 
 
@@ -220,6 +210,15 @@ h1 {
     font-size: 8vw;
     font-weight: lighter;
     line-height: 0px;
+}
+
+h2 {
+    color: black;
+    text-decoration: none;
+    font-size: 1.6vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    margin-bottom: 0;
 }
 
 h4 {
@@ -243,6 +242,10 @@ h5 {
     text-decoration: none; 
     color:black; 
     border-bottom: 1px dashed #5c5c5c;
+}
+
+.main a:hover {
+    font-style:italic;
 }
 
  /*  Adjusting for Phone */
@@ -319,12 +322,16 @@ h5 {
     .abouttext2 {
         padding-left: 6vw;
         padding-right: 1vw;
-        padding-bottom: 2vw;
+        padding-bottom: 4vw;
     }
     
 
     h1 {
         font-size: 14vw;
+    }
+
+    h2 {
+        font-size: 4.5vw;
     }
 
     h4 {

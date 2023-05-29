@@ -45,6 +45,10 @@ a {
     border-bottom: 1px dashed #5c5c5c;
 }
 
+a:hover {
+    font-style: italic;
+}
+
 .pogimg {
     display: block;
     margin-left: auto;
@@ -71,8 +75,11 @@ button {
     text-decoration: none;
     top: 40px;
     left: 50px;
-    background-color: transparent;
-    
+    background-color: transparent;   
+}
+
+button:hover {
+    font-style:italic
 }
 
 table {

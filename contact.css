@@ -235,6 +235,10 @@ u {
     text-decoration: none;
 }
 
+u:hover {
+    font-style:italic;
+}
+
 span#words {
     font-weight: bold;
     font-style: italic;
@@ -298,7 +302,7 @@ span#words {
     }
 
     p {
-        font-size: 4.5vw;
+        font-size: 4.2vw;
         line-height: 1.2;
 
     }
