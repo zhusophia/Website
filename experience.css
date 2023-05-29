@@ -376,6 +376,7 @@ table {
     }
 
     button {
+        border-style: inset;
         border-width: 0.2em;
     }
 

@@ -188,7 +188,8 @@ img {
     margin: 0 auto;
     max-width: 25%;
     max-height: 25%;    
-    outline: 5px solid #b3aaa5;  
+    border: 5px #b3aaa5;  
+    border-style: inset;
 }
 
 
