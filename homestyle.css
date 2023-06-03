@@ -23,7 +23,7 @@ html, body {
 }
 
 .navmenu {
-    padding-top: 0.1em;
+    padding-top: 0.3em;
     width: 100%;
     display: flex;
     justify-content: space-around;
