@@ -54,6 +54,15 @@ h3 {
     100%{ opacity: 1;}
 }
 
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 .stuck {
     display: none;
     animation: fade-inout 1s;
@@ -62,9 +71,8 @@ h3 {
 }
 
 .hello {
-    display: block;
-    opacity: 0;
     animation: fade-inout 1s;
+    display: block;
     opacity: 1;
 }
 
