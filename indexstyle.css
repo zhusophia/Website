@@ -9,7 +9,7 @@ html {
 .main {
     margin: 0;
   position: absolute;
-  top: 10em;
+  top: 15vh;
   
 }
 
@@ -64,6 +64,13 @@ h3 {
 }
 
 .stuck {
+    display: none;
+    animation: fade-inout 1s;
+    opacity: 1;
+    padding-top: 2vw;
+}
+
+.stuck2 {
     display: none;
     animation: fade-inout 1s;
     opacity: 1;

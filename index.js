@@ -20,6 +20,10 @@ function hint() {
     document.getElementById('stuck').style.display = 'block'
 }
 
+function hint2() {
+    document.getElementById('stuck2').style.display = 'block'
+}
+
 setInterval(warning1, 4500)
 
 function warning1() {
@@ -31,7 +35,7 @@ function warning1() {
 
 function warning2() {
     if (count2 == 0) {
-       hint();
+       hint2();
     } 
 }
 
